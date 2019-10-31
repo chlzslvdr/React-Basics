@@ -11,4 +11,9 @@ class FirstChild extends React.Component {
   }
 }
 
+FirstChild.defaultProps = {
+  headerProp: 'Header from props...',
+  contentProp: 'Content from props...',
+};
+
 export default FirstChild;
