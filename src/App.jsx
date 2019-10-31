@@ -1,13 +1,24 @@
 import React from 'react';
-import ParentComponent from './parentComponent';
+import Header from './Header';
+import Content from './Content';
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      header: 'Header from props...',
+      content: 'Content from props...',
+    };
+  }
+
   render() {
     return (
       <div>
-        <ParentComponent />
+        <Header headerProp={this.state.header} />
+        <Content contentProp={this.state.content} />
       </div>
     );
   }
 }
+
 export default App;
