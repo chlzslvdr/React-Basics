@@ -6,4 +6,8 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
+setTimeout(() => {
+  ReactDOM.unmountComponentAtNode(document.getElementById('root'));
+}, 12000);
+
 serviceWorker.unregister();
