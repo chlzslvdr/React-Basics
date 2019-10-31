@@ -1,11 +1,12 @@
 import React from 'react';
+import './App.scss';
 
 class App extends React.Component {
   render() {
-    var i = 1;
     return (
       <div>
-        <h1>{i == 1 ? 'True!' : 'False'}</h1>
+        <h1 className='header'>Header</h1>
+        <h2 style={{ color: 'green' }}>Body</h2>
       </div>
     );
   }
