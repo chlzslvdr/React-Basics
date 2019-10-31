@@ -4,10 +4,10 @@ import FirstChild from './firstChild';
 class ParentComponent extends Component {
   render() {
     return (
-      <h1>
-        I'm the parent component.
-        <FirstChild />
-      </h1>
+      <FirstChild
+        headerProp='Header from props...'
+        contentProp='Content from props...'
+      />
     );
   }
 }

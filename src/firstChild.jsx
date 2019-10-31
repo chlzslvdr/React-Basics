@@ -1,7 +1,14 @@
 import React from 'react';
 
-const FirstChild = () => {
-  return <p>I'm the 1st child!</p>;
-};
+class FirstChild extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>{this.props.headerProp}</h1>
+        <h2>{this.props.contentProp}</h2>
+      </div>
+    );
+  }
+}
 
 export default FirstChild;
