@@ -4,10 +4,7 @@ import React from 'react';
 // import State from './Sample/State';
 // import Props from './Sample/Props/PropsValidation';
 // import ComponentAPIsAndLifeCycle from './Sample/ComponentAPIsAndLifeCycle/LifeCycles';
-// import Forms from './Sample/Forms/ComplexForm';
-// import Events from './Sample/Events/ChildEvents';
-// import Keys from './Sample/Keys';
-import HOC from './Sample/HOC';
+import Forms from './Sample/Forms/ComplexForm';
 
 class App extends React.Component {
   render() {
@@ -18,10 +15,7 @@ class App extends React.Component {
         {/* <State /> */}
         {/* <Props /> */}
         {/* <ComponentAPIsAndLifeCycle /> */}
-        {/* <Forms /> */}
-        {/* <Events /> */}
-        {/* <Keys /> */}
-        <HOC />
+        <Forms />
       </div>
     );
   }
