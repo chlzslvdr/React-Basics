@@ -6,7 +6,8 @@ import React from 'react';
 // import ComponentAPIsAndLifeCycle from './Sample/ComponentAPIsAndLifeCycle/LifeCycles';
 // import Forms from './Sample/Forms/ComplexForm';
 // import Events from './Sample/Events/ChildEvents';
-import Keys from './Sample/Keys';
+// import Keys from './Sample/Keys';
+import HOC from './Sample/HOC';
 
 class App extends React.Component {
   render() {
@@ -19,7 +20,8 @@ class App extends React.Component {
         {/* <ComponentAPIsAndLifeCycle /> */}
         {/* <Forms /> */}
         {/* <Events /> */}
-        <Keys />
+        {/* <Keys /> */}
+        <HOC />
       </div>
     );
   }
