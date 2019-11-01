@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import * as ROUTES from '../../constant.routes';
+import * as ROUTES from '../../Routes/constant.routes';
 
 const Navigation = () => (
   <div>
