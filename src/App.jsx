@@ -1,21 +1,30 @@
 import React from 'react';
+// import JSX from './Sample/JSX/usingJSX';   //to test other samples, change path
+// import Components from './Sample/Components/CallingAComponent';
+// import State from './Sample/State';
+// import Props from './Sample/Props/PropsValidation';
+// import ComponentAPIsAndLifeCycle from './Sample/ComponentAPIsAndLifeCycle/LifeCycles';
+// import Forms from './Sample/Forms/ComplexForm';
+// import Events from './Sample/Events/ChildEvents';
+// import Keys from './Sample/Keys';
+import HOC from './Sample/HOC';
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      header: 'Header from state...',
-      content: 'Content from state...',
-    };
-  }
   render() {
     return (
       <div>
-        <h1>{this.state.header}</h1>
-        <h2>{this.state.content}</h2>
+        {/* <JSX/> */}
+        {/* <Components /> */}
+        {/* <State /> */}
+        {/* <Props /> */}
+        {/* <ComponentAPIsAndLifeCycle /> */}
+        {/* <Forms /> */}
+        {/* <Events /> */}
+        {/* <Keys /> */}
+        <HOC />
       </div>
     );
   }
 }
+
 export default App;
