@@ -5,7 +5,8 @@ import React from 'react';
 // import Props from './Sample/Props/PropsValidation';
 // import ComponentAPIsAndLifeCycle from './Sample/ComponentAPIsAndLifeCycle/LifeCycles';
 // import Forms from './Sample/Forms/ComplexForm';
-import Events from './Sample/Events/ChildEvents';
+// import Events from './Sample/Events/ChildEvents';
+import Keys from './Sample/Keys';
 
 class App extends React.Component {
   render() {
@@ -17,7 +18,8 @@ class App extends React.Component {
         {/* <Props /> */}
         {/* <ComponentAPIsAndLifeCycle /> */}
         {/* <Forms /> */}
-        <Events />
+        {/* <Events /> */}
+        <Keys />
       </div>
     );
   }
