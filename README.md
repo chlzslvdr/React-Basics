@@ -7,11 +7,13 @@
 - Nested Elements
 - Javascript Expression
 - Ternary Expression
+
 3. Components
 
 - Stateless (Functional Component)
 - Statefull (Class Component)
 - Calling a Component
+
 4. State
 5. Props
 
