@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Navigation from '../Sample/Routes/Navigation';
-import Home from '../Sample/Routes/Home';
-import About from '../Sample/Routes/About';
-import Contact from '../Sample/Routes/Contact';
-import Landing from '../Sample/Routes/LandingPage';
+import Navigation from '../Sample/10-Routes/Navigation';
+import Home from '../Sample/10-Routes/Home';
+import About from '../Sample/10-Routes/About';
+import Contact from '../Sample/10-Routes/Contact';
+import Landing from '../Sample/10-Routes/LandingPage';
 import * as ROUTES from './constant.routes';
 
 const TestRoute = () => (
