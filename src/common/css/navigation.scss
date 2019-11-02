@@ -1,0 +1,17 @@
+.navigation-section {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+    color: black;
+
+    &:focus,
+    &:active,
+    &:hover {
+      color: #33d1fd;
+      font-weight: 600;
+    }
+  }
+}
