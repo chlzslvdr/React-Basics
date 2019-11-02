@@ -1,8 +1,7 @@
 import React from 'react';
-
 const LandingPage = () => (
-  <div>
-    <h1>Landing Page</h1>
+  <div className='landing-container'>
+    <h1>React Starter Kit</h1>
   </div>
 );
 
