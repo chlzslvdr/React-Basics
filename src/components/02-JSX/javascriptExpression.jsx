@@ -5,7 +5,9 @@ class JavascriptExpressions extends React.Component {
     return (
       <div className='test-app'>
         <span className='title'>Javascript Expression</span>
-        <h1>{1 + 1}</h1>
+        <div className='container'>
+          <h1>{1 + 1}</h1>
+        </div>
       </div>
     );
   }

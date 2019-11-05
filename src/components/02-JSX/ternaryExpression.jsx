@@ -6,7 +6,9 @@ class TernaryExpression extends React.Component {
     return (
       <div className='test-app'>
         <span className='title'>ternary expression</span>
-        <h1>{i === 1 ? 'True!' : 'False'}</h1>
+        <div className='container'>
+          <h1>{i === 1 ? 'True!' : 'False'}</h1>
+        </div>
       </div>
     );
   }

@@ -20,10 +20,12 @@ class SetState extends React.Component {
     return (
       <div className='test-app'>
         <span className='title'>set state</span>
-        <button onClick={this.handleClick} className='click-btn'>
-          Click Me
-        </button>
-        <span className='name'>{this.state.name}</span>
+        <div className='form-item'>
+          <button className='click-me-btn' onClick={this.handleClick}>
+            Click Me
+          </button>
+          <span className='text'>{this.state.name}</span>
+        </div>
       </div>
     );
   }

@@ -20,8 +20,8 @@ import DefaultProps from '../05-Props/DefaultProps';
 import StateAndProps from '../05-Props/StateAndProps';
 import PropsValidation from '../05-Props/PropsValidation';
 
-import LifeCycles from '..//06-ComponentLifecycles/LifeCycles';
-import SetState from '..//06-ComponentLifecycles/SetState';
+import LifeCycles from '../06-ComponentLifecycles/LifeCycles';
+import SetState from '../06-ComponentLifecycles/SetState';
 
 import Forms from '../07-Forms/UsingForms';
 import ComplexForms from '../07-Forms/ComplexForm';
@@ -60,8 +60,8 @@ const App = () => (
         <Route path={ROUTES.STATE_AND_PROPS} component={StateAndProps} />
         <Route path={ROUTES.PROPS_VALIDATION} component={PropsValidation} />
 
-        <Route path={ROUTES.LIFE_CYCLES} component={LifeCycles} />
         <Route path={ROUTES.SET_STATE} component={SetState} />
+        <Route path={ROUTES.LIFE_CYCLES} component={LifeCycles} />
 
         <Route path={ROUTES.FORMS} component={Forms} />
         <Route path={ROUTES.COMPLEX_FORMS} component={ComplexForms} />

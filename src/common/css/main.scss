@@ -22,6 +22,11 @@
     padding: 60px;
   }
 
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
   .click-btn {
     width: 150px;
     height: 50px;
