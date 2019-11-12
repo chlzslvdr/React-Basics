@@ -1,31 +1,26 @@
-import React from 'react';
+import React from "react";
 
 class Forms extends React.Component {
-  constructor(props) {
-    super(props);
+  state = {
+    data: "Initial data..."
+  };
 
-    this.state = {
-      data: 'Initial data...',
-    };
-    this.updateState = this.updateState.bind(this);
-  }
-
-  updateState(e) {
+  updateState = e => {
     this.setState({ data: e.target.value });
-  }
+  };
 
   render() {
     return (
-      <div className='test-app'>
-        <span className='title'>using forms</span>
-        <div className='form-item'>
+      <div className="test-app">
+        <span className="title">using forms</span>
+        <div className="form-item">
           <input
-            type='text'
+            type="text"
             value={this.state.data}
             onChange={this.updateState}
-            className='input'
+            className="input"
           />
-          <span className='text'>{this.state.data}</span>
+          <span className="text">{this.state.data}</span>
         </div>
       </div>
     );

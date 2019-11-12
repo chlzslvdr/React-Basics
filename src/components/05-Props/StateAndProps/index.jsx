@@ -1,20 +1,17 @@
-import React from 'react';
-import Header from './Header';
-import Content from './Content';
+import React from "react";
+import Header from "./Header";
+import Content from "./Content";
 
 class StateAndProps extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      header: 'Header from props...',
-      content: 'Content from props...',
-    };
-  }
+  state = {
+    header: "Header from props...",
+    content: "Content from props..."
+  };
 
   render() {
     return (
-      <div className='test-app'>
-        <span className='title'>state and props</span>
+      <div className="test-app">
+        <span className="title">state and props</span>
         <Header headerProp={this.state.header} />
         <Content contentProp={this.state.content} />
       </div>
