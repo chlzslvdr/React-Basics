@@ -1,4 +1,4 @@
-# React-Starter-Kit
+# React-Basics
 
 1. Environment Setup
 2. JSX
